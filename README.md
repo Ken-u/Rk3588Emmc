@@ -25,7 +25,7 @@ g++ -std=c++17 -Wall -Wextra -Werror -O1 -I . tests/test-root-manifest.cpp -o /t
 
 ## Use
 
-`UniXNU-evb10` selects this repository as `drivers/Rk3588Emmc`. The board supplies
+`UniXNU-evb10` selects this repository as `package/Rk3588Emmc`. The board supplies
 the `/arm-io/emmc` node, the GPT-derived window layout and the boot arguments below;
 the kernel patch `rk3588-emmc-personality.patch` of `UniXNU-rk3588-common` registers
 the personality. Boot arguments: `emmc-data-size`, `emmc-data-persist`,
