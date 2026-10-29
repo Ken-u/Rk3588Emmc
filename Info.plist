@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleIdentifier</key><string>io.github.ken-u.NativeEmmc</string>
+  <key>CFBundleName</key><string>NativeEmmc</string>
+  <key>CFBundleExecutable</key><string>NativeEmmc</string>
+  <key>CFBundlePackageType</key><string>KEXT</string>
+  <key>CFBundleVersion</key><string>0.1.0</string>
+  <key>OSBundleRequired</key><string>Root</string>
+  <key>IOKitPersonalities</key><dict><key>RK3588 DWC MSHC eMMC</key><dict>
+    <key>IOClass</key><string>NativeEmmc</string>
+    <key>IOProviderClass</key><string>IOPlatformDevice</string>
+    <key>IONameMatch</key><string>rockchip,rk3588-dwcmshc</string>
+    <key>IOProbeScore</key><integer>1000</integer>
+  </dict></dict>
+</dict></plist>
